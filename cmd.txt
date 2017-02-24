@@ -1,0 +1,16 @@
+ git config --global user.name "poonam rohani"
+git config --global user.email "poonam_rohani@persistent.co.in"
+ git config user.name
+ git config user.email
+ git config --list
+ git init
+ git add file1.txt
+ git status
+git commit -m "first version"
+git commit -am "Change2 to file1"
+ git log
+ git log --oneline
+ git log --since "02-23-2017"
+ git log --until "02-23-2017"
+ git log --author="poonam"
+
