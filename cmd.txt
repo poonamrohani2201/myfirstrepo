@@ -13,4 +13,8 @@ git commit -am "Change2 to file1"
  git log --since "02-23-2017"
  git log --until "02-23-2017"
  git log --author="poonam"
+ git branch
+ git checkout bug123
+ git branch -d bug123
+ git merge bug123
 
